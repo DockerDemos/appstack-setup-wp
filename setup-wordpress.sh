@@ -8,9 +8,9 @@ fi
 
 DBYAML='/root/.secret/dbdata.yaml'
 
-DB_NAME="$(grep name dbdata.yaml |awk '{print $2}')"
+DB_NAME="$(grep name $DBYAML |awk '{print $2}')"
 DB_USER='root'
-DB_PASS="$(grep mysql dbdata.yaml |awk '{print $2}')"
+DB_PASS="$(grep mysql $DBYAML |awk '{print $2}')"
 DB_HOST=$DB_PORT_3306_TCP_ADDR
 
 if [[ "$(/bin/ls -A /var/www/html)" ]] ; then

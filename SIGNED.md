@@ -3,9 +3,9 @@
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEABECAAYFAlRs18QACgkQte6EFif3vzcpwwCg7UZjdYUthxHnFwvHcOo39CGV
-zZQAnRBY+vwYON/2lwz1l4PZGRhPL7bG
-=N/VZ
+iEYEABECAAYFAlSTLPwACgkQte6EFif3vzf6bgCcCMOJjGOFUqoRKEuiMu2kVne9
+CrkAoPwyzKWeeT7sZBm4MHWD90fwhS+b
+=DYDc
 -----END PGP SIGNATURE-----
 
 ```
@@ -21,7 +21,7 @@ size   exec  file                  contents
              ./                                                                                    
 760            Dockerfile          fab767f446ced8b0e4aecbae3a88c66c1f295386de4f5af4efa659ba353e5d01
 35121          LICENSE             e1c0ad728983d8a57335e52cf1064f1affd1d454173d8cebd3ed8b4a72b48704
-1481   x       setup-wordpress.sh  38f62ffaf37144c12ba174a1498487418a9d28ee2acb1f17842eb5a97b02b542
+1473   x       setup-wordpress.sh  0cd3175b65e2d57f38ef65ac7758d61088f139ad0bf0387beb0bf22a22b79ba6
 ```
 
 #### Ignore
