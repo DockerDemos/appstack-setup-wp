@@ -6,7 +6,7 @@ if [[ -z "$DB_PORT_3306_TCP_ADDR" ]] ; then
   exit 1
 fi
 
-DBYAML='/root/.secret/dbdata.yaml'
+DBYAML='/conf/.creds/dbdata.yaml'
 
 DB_NAME="$(grep name $DBYAML |awk '{print $2}')"
 DB_USER='root'
